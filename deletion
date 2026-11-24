@@ -1,0 +1,8 @@
+# after create cluster to update it
+ aws eks update-kubeconfig --region <region> --name <cluster name>
+
+ ex: aws eks update-kubeconfig --region us-east-1 --name naresh
+
+ # To delete the EKS clsuter 
+    
+   eksctl delete cluster naresh --region us-east-1
